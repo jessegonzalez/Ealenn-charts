@@ -23,6 +23,7 @@ securityContext: {}
 service:
   # service.annotations -- Example `service.beta.kubernetes.io/aws-load-balancer-name: descriptive-nlb-name` for aws-load-balancer-controller
   annotations: {}
+  sourceRanges: []
   type: ClusterIP
   # service.port -- For k8s >= 1.19 use port number not name
   port: 80
