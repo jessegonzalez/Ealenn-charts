@@ -1,0 +1,47 @@
+apiVersion: v1
+entries:
+  echo-server:
+  - apiVersion: v1
+    appVersion: 0.6.0
+    created: "2022-11-08T21:36:08.034187-06:00"
+    description: Echo-Server for Kubernetes
+    digest: 659976b8f9899c48c874d45f8b5cced8320dd750843692342cac3e2e0a75c739
+    home: https://github.com/Ealenn/Echo-Server
+    icon: https://ealenn.github.io/Echo-Server/assets/images/ping-pong.png
+    keywords:
+    - echo
+    - server
+    - rest
+    - test
+    - api
+    maintainers:
+    - name: Rudy Marchandise
+    name: echo-server
+    sources:
+    - https://github.com/Ealenn/Echo-Server
+    urls:
+    - https://jessegonzalez.github.io/Ealenn-charts/echo-server-0.5.0.tgz
+    version: 0.5.0
+  picolors:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2022-11-08T21:36:08.03588-06:00"
+    description: Extract prominent colors from an image
+    digest: 03bce36603fe8457e897affa4ac862cfeaf7c126103a618609a1280d5f75cfc1
+    home: https://github.com/Ealenn/Picolors
+    icon: https://ealenn.github.io/helm-ui/icons/picolors.png
+    keywords:
+    - colors
+    - rest
+    - picture
+    - image
+    maintainers:
+    - name: Rudy Marchandise
+    name: picolors
+    sources:
+    - https://github.com/Ealenn/Picolors
+    - https://hub.docker.com/r/ealen/picolors
+    urls:
+    - https://jessegonzalez.github.io/Ealenn-charts/picolors-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-11-08T21:36:08.033067-06:00"
